@@ -23,9 +23,9 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/net/http/httpguts"
-	"golang.org/x/net/http2"
-	"golang.org/x/net/http2/hpack"
+	"github.com/laincloud/net/http/httpguts"
+	"github.com/laincloud/net/http2"
+	"github.com/laincloud/net/http2/hpack"
 )
 
 var (

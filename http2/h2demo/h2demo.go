@@ -32,7 +32,7 @@ import (
 	"go4.org/syncutil/singleflight"
 	"golang.org/x/build/autocertcache"
 	"golang.org/x/crypto/acme/autocert"
-	"golang.org/x/net/http2"
+	"github.com/laincloud/net/http2"
 )
 
 var (
